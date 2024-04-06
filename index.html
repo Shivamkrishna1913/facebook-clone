@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="logo.png" type="image/x-icon" />
+    <title>Facebook - log in or sign up</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100">
+    <!-- left side -->
+    <div class="container mt-44 mx-auto flex items-center justify-center">
+      <div class="ml-28 w-1/2 mt-[-140px]">
+        <img class="w-80" src="facebook.svg" alt="" srcset="" />
+        <h2 class="text-3xl mx-6 mt-[-14px]">
+          Facebook helps you connect and share with the people in your life.
+        </h2>
+      </div>
+      <!-- right side -->
+      <div class="mr-28">
+        <div
+          class="bg-white w-96 h-80 rounded-lg m-6 p-5 flex flex-col drop-shadow-2xl mt-[-35px]"
+        >
+          <input
+            class="border border-t-2 outline-blue-500 focus:outline-double rounded-md py-3 my-3 px-3 mt-[-1px]"
+            type="email"
+            placeholder="Email address or phone number"
+          />
+          <input
+            class="border border-t-2 outline-blue-500 focus:outline-double rounded-md py-3 mb-3 px-3"
+            type="password"
+            placeholder="Password"
+          />
+          <button
+            class="border-solid rounded-md px-28 py-2 bg-[#0866ff] text-xl text-white font-medium mb-4"
+          >
+            Log in
+          </button>
+          <span
+            class="mb-4 flex justify-center text-sm text-[#0866ff] cursor-pointer hover:underline"
+          >
+            <a
+              href="https://www.facebook.com/recover/initiate/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzEyMzk2OTg0LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&ars=facebook_login"
+              target="_blank"
+            >
+              Forgotten password?
+            </a>
+          </span>
+          <hr class="mb-4" />
+          <button
+            class="border-solid rounded-md py-2 bg-[#42b72a] text-xl text-white font-medium mb-2 w-fit px-4 mx-auto hover:bg-[#389e24]"
+          >
+            Create new account
+          </button>
+          <span class="absolute -bottom-10 text-sm">
+            <span class="font-bold hover:underline cursor-pointer"
+              >Create a Page
+            </span>
+            for a celebrity, brand or business.
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
